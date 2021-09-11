@@ -10,14 +10,14 @@ if __name__ == '__main__':
     song_title = ''
 
     while len(artist) < 2:
-        artist = input('Enter artist name:')
+        artist = input('Enter artist name: ')
         if len(artist) < 2:
             print('artist name too short')
         if artist == 'exit':
             break
 
     while len(song_title) < 2:
-        song_title = input('Enter song title')
+        song_title = input('Enter song title: ')
         if len(song_title) < 2:
             print('song title too short')
         if song_title == 'exit':
